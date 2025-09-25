@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NEW TECH INNOVATION</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-content">
+          <div class="logo">
+            <i class="fas fa-store"></i>
+            New Tech Innovation
+          </div>
+          <div class="menu-toggle" id="menuToggle">
+            <i class="fas fa-bars"></i>
+          </div>
+          <nav id="mainNav">
+            <ul>
+              <!-- <li><a href="#"><i class="fas fa-home"></i> Home</a></li> -->
+              <li>
+                <a href="#products"><i class="fas fa-box-open"></i> Products</a>
+              </li>
+              <li>
+                <a href="#about"><i class="fas fa-info-circle"></i> About</a>
+              </li>
+              <li>
+                <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="container">
+        <h1>Our dealers</h1>
+        <p>kyocera xerox riso canon konica minolta</p>
+        <p>our services</p>
+      </div>
+    </section>
+
+    <section class="products" id="products">
+      <div class="container">
+        <h2 class="section-title">Featured Products</h2>
+        <div class="product-grid" id="productGrid">
+          <!-- Product cards will be added here by JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <div id="imageModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="modal-body">
+          <div class="modal-image">
+            <img id="modalImage" src="" alt="Product Image" />
+          </div>
+          <div class="modal-info">
+            <h2 id="modalTitle"></h2>
+            <p id="modalDescription"></p>
+            <div class="specs" id="modalSpecs"></div>
+            <div class="modal-price" id="modalPrice"></div>
+            <button class="contact-btn">Contact for more details</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer id="contact">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-column">
+            <h3>About Us</h3>
+            <p>
+              We are dedicated to providing high-quality services that enhance
+              your lifestyle. Our mission is to deliver excellence in every
+              product we offer.
+            </p>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+          <div class="footer-column">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#products">Products</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Contact Info</h3>
+            <p>
+              <i class="fas fa-map-marker-alt"></i> New Tech Innovation 39/5663,
+              <br />
+              Near Gold Gym ,Vytila 682019
+            </p>
+            <p><i class="fas fa-phone"></i> +91 9895417033</p>
+            <p><i class="fas fa-envelope"></i> info@productbrochure.com</p>
+            <p><i class="fas fa-clock"></i> Mon-Fri: 9AM-6PM</p>
+            <p><i class="fas fa-clock"></i> saturday 9AM - 5:30PM</p>
+          </div>
+          <div class="footer-column">
+            <h3>Visit Our Store</h3>
+            <div class="map-placeholder">
+              <i class="fas fa-map"></i>
+              <p> visit our store to know more</p>
+              <button
+                class="directions-btn"
+                onclick="window.location.href='https://share.google/8kPlAw7X3zurczgTs'">
+                Get Directions
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2023 Product Brochure. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
