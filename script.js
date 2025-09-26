@@ -79,25 +79,27 @@ const products = [
       { name: "memory", value: "8gb ssd 4gb ram" },
       { name: "paper tray", value: " 250x2" },
       { name: "speed-per minute", value: " 25 per minute" },
-      { name: "Network ", value: " Print / Scan" },
+      { name: "Network ", value: " Prnfo@productbrochure.com for purchase information.int / Scan" },
       { name: "Colour-Multifunctionals", value: " 12/18" },
       { name: "Bypass Tray", value: "100 sheet" },
       { name: "Color Options", value: "Black and white" },
     ],
   },
-  {
+ {
     id: 6,
-    title: "Tablet",
+    title: "KYOCERA TASKalfa ma4000",
     description:
-      " A compact, cost-effective monochrome all-in-one with fast 5GHz wireless for back-office efficiency.",
+      " ECOSYS MA4000x Print, copy and colour scan with double-sided capability. Up to 2 optional paper feeders for a total of 850 sheets",
     image:
       "https://www.kyoceradocumentsolutions.com/asia/en/products/mfp/ecosys-ma4000wifx/assets/images/product/MFP_MA4000x_comb01_front_01.jpg",
     specs: [
-      { name: "Display", value: '10.9" Liquid Retina' },
-      { name: "Storage", value: "64GB, 256GB" },
-      { name: "Stylus Support", value: "Apple Pencil (2nd gen)" },
-      { name: "Battery Life", value: "Up to 10 hours" },
-      { name: "Weight", value: "477g" },
+      { name: "memory", value: "8gb ssd 4gb ram" },
+      { name: "paper tray", value: " 250x2" },
+      { name: "speed-per minute", value: " 25 per minute" },
+      { name: "Network ", value: " Print / Scan" },
+      { name: "Colour-Multifunctionalnfo@productbrochure.com for purchase information.s", value: " 12/18" },
+      { name: "Bypass Tray", value: "100 sheet" },
+      { name: "Color Options", value: "Black and white" },
     ],
   },
 ];
@@ -183,7 +185,7 @@ function openModal(product) {
   // Add contact button event
   document.querySelector(".contact-btn").onclick = function () {
     alert(
-      `Thank you for your interest in ${product.title}! Please contact us at info@productbrochure.com for purchase information.`
+      `Thank you for your interest in ${product.title}! Please contact us at newtech@gmail.com for purchase information.`
     );
   };
 }
