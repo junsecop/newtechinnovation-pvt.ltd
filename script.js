@@ -34,24 +34,6 @@ const products = [
     ],
   },
   {
-    id: 3,
-    title: "KYOCERA TASKalfa 1801/2201",
-    description: "> PRINT> COPY Colour Scan",
-    // price: "$129.99",
-    image:
-      "https://www.kyoceradocumentsolutions.com/hk/en/products/mfp/taskalfa-2201/assets/images/taskalfa-1801.jpg",
-    specs: [
-      { name: "Drum life", value: " 1 lakh " },
-      { name: "memory", value: "256mb" },
-      { name: "paper tray", value: " 300x1" },
-      { name: "speed-per minute", value: " 18x2" },
-      { name: "Network print", value: " Scan" },
-
-      { name: "Bypass Tray", value: "100 sheet" },
-      { name: "Color Options", value: "Black and white" },
-    ],
-  },
-  {
     id: 4,
     title: "Konica Minolta ",
     description: "konica minolta printer series",
@@ -72,20 +54,24 @@ const products = [
   {
     id: 5,
     title: " KYOCERA TASKalfa 2553ci",
-    description: "KYOCERA TASKalfa 2553ci color printer multifunctional , with trolly duplex banner printing",
+    description:
+      "KYOCERA TASKalfa 2553ci color printer multifunctional , with trolly duplex banner printing",
     image:
       "https://www.kyoceradocumentsolutions.com/in/en/products/mfp/taskalfa-6053ci/assets/images/taskalfa-2553ci.jpg",
     specs: [
       { name: "memory", value: "8gb ssd 4gb ram" },
       { name: "paper tray", value: " 250x2" },
       { name: "speed-per minute", value: " 25 per minute" },
-      { name: "Network ", value: " Prnfo@productbrochure.com for purchase information.int / Scan" },
+      {
+        name: "Network ",
+        value: " Prnfo@productbrochure.com for purchase information.int / Scan",
+      },
       { name: "Colour-Multifunctionals", value: " 12/18" },
       { name: "Bypass Tray", value: "100 sheet" },
       { name: "Color Options", value: "Black and white" },
     ],
   },
- {
+  {
     id: 6,
     title: "KYOCERA TASKalfa ma4000",
     description:
@@ -97,7 +83,10 @@ const products = [
       { name: "paper tray", value: " 250x2" },
       { name: "speed-per minute", value: " 25 per minute" },
       { name: "Network ", value: " Print / Scan" },
-      { name: "Colour-Multifunctionalnfo@productbrochure.com for purchase information.s", value: " 12/18" },
+      {
+        name: "Colour-Multifunctionalnfo@productbrochure.com for purchase information.s",
+        value: " 12/18",
+      },
       { name: "Bypass Tray", value: "100 sheet" },
       { name: "Color Options", value: "Black and white" },
     ],
