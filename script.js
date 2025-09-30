@@ -2,7 +2,7 @@
 const products = [
   {
     id: 1,
-    title: "KYOCERA TASKalfa 1800/2200 ",
+    title: "KYOCERA TASKalfa 2020 ",
     description:
       "A3 B/W Multifunctionals speed 18/22-minute Double side printing   ",
     // price: "$199.99",
@@ -35,8 +35,8 @@ const products = [
   },
   {
     id: 4,
-    title: "Konica Minolta ",
-    description: "konica minolta printer series",
+    title: "Konica Minolta 205i ",
+    description: "konica minolta printer",
     // price: "$49.99",
     image:
       "https://bt.konicaminolta.in/wp-content/themes/BIN/assets/images/products/Office-Monochrome-PrintSystem/bizhub225i/Product-Overview/1-1.jpg",
