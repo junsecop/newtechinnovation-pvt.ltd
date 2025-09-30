@@ -19,7 +19,7 @@ const products = [
   },
   {
     id: 2,
-    title: "KYOCERA TASKalfa 3212i / 4212i",
+    title: "KYOCERA TASKalfa 3200",
     description:
       "Advanced smartwatch with health monitoring, GPS, and long battery life. Track your fitness goals and stay connected on the go.",
     // price: "$249.99",
